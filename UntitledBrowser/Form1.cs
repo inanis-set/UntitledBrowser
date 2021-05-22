@@ -29,7 +29,7 @@ namespace UntitledBrowser
             chrome.Dock = DockStyle.Fill;
             chrome.AddressChanged += Chrome_AddressChanged;
             chrome.TitleChanged += Chrome_TitleChanged;
-            tabControl1.TabPages.Insert(1, "   +");
+            tabControl1.TabPages.Insert(1, "+");
         }
 
         private void Chrome_AddressChanged(object sender, AddressChangedEventArgs e)
@@ -149,7 +149,7 @@ namespace UntitledBrowser
 
         private void tabControl1_Selecting(object sender, TabControlCancelEventArgs e)
         {
-                if (e.TabPage.Text == "   +")
+                if (e.TabPage.Text == "+")
                 {
                     TabPage tab = new TabPage();
                     tab.Text = "Google";
@@ -163,7 +163,6 @@ namespace UntitledBrowser
                     chrome.TitleChanged += Chrome_TitleChanged;
                 }
         }
-        // !!! all tabs have their own size and idk how to fix it !!!
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control && e.KeyCode == Keys.T)
