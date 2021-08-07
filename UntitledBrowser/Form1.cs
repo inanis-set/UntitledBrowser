@@ -201,5 +201,4 @@ namespace UntitledBrowser
     //history and favorites (you can find it here: https://www.codeproject.com/Articles/60179/Web-Browser-in-C#History&Favorites4)
     //zoom in/out (you can find it here: https://stackoverflow.com/questions/37681816/cefsharp-chromiumwebbrowser-allow-user-to-zoom-in-out)
     //open new window (you can find it here: https://stackoverflow.com/questions/5957688/creating-windows-forms-open-new-form)
-    //i hope this helps someone
 }
