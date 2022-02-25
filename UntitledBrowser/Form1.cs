@@ -195,7 +195,7 @@ namespace UntitledBrowser
             }
         }
     }
-    //TODO (things i won't do, but you can do):
+    //TODO:
     //text search (you can find it here: https://stackoverflow.com/questions/35884540/how-to-implement-text-search-in-cefsharp)
     //downloading file (you can find it here: https://stackoverflow.com/questions/34289428/download-file-with-cefsharp-winforms)
     //history and favorites (you can find it here: https://www.codeproject.com/Articles/60179/Web-Browser-in-C#History&Favorites4)
